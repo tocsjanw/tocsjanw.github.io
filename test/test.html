@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+</head>
+<body>
+	<div style="width:500px;margin:0 auto;">
+		<h2>请在框里输入点东西：</h2>
+		<input type="text" oninput="change()">
+		<div id="info"></div>
+	</div>
+	<script>
+		function change(){
+			document.getElementById("info").innerHTML = "不用输啥了，我知道你喜欢我，嘻嘻";
+		}
+	</script>
+</body>
+</html>
